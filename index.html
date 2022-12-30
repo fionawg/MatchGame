@@ -97,19 +97,19 @@
                     score.innerHTML = s;
                     num = num.slice(0, 1);
                     first = temp;
-                    first.src = "/imgs/" + num + ".jpg";
+                    first.src = "imgs/" + num + ".jpg";
                     count++;
                 } else if (count === 2) {
                     s++;
                     score.innerHTML = s;
                     num = num.slice(0, 1);
                     second = temp;
-                    second.src = "/imgs/" + num + ".jpg";
+                    second.src = "imgs/" + num + ".jpg";
                     count = 1;
                     setTimeout(function () {
                         if (first.src !== second.src) {
-                            first.src = "/imgs/question.png";
-                            second.src = "/imgs/question.png";
+                            first.src = "imgs/question.png";
+                            second.src = "imgs/question.png";
                         }
                     }, 400);
                     genMessage();
@@ -145,7 +145,7 @@
             elements = Array.from(document.querySelectorAll("img"));
             for (let i = 0; i < elements.length; i++) {
                 temp = elements[i];
-                temp.src = "/imgs/question.png";
+                temp.src = "imgs/question.png";
             }
             s = 0;
             score.innerHTML = s;
@@ -169,22 +169,22 @@
     <br />
 
     <div class="container">
-        <img id="11" src="/imgs/question.png" onclick="changeImage('11');">
-        <img id="31" src="/imgs/question.png" onclick="changeImage('31');">
-        <img id="41" src="/imgs/question.png" onclick="changeImage('41');">
-        <img id="81" src="/imgs/question.png" onclick="changeImage('81');">
-        <img id="82" src="/imgs/question.png" onclick="changeImage('82');">
-        <img id="61" src="/imgs/question.png" onclick="changeImage('61');">
-        <img id="51" src="/imgs/question.png" onclick="changeImage('51');">
-        <img id="21" src="/imgs/question.png" onclick="changeImage('21');">
-        <img id="12" src="/imgs/question.png" onclick="changeImage('12');">
-        <img id="42" src="/imgs/question.png" onclick="changeImage('42');">
-        <img id="71" src="/imgs/question.png" onclick="changeImage('71');">
-        <img id="32" src="/imgs/question.png" onclick="changeImage('32');">
-        <img id="22" src="/imgs/question.png" onclick="changeImage('22');">
-        <img id="72" src="/imgs/question.png" onclick="changeImage('72');">
-        <img id="52" src="/imgs/question.png" onclick="changeImage('52');">
-        <img id="62" src="/imgs/question.png" onclick="changeImage('62');">
+        <img id="11" src="imgs/question.png" onclick="changeImage('11');">
+        <img id="31" src="imgs/question.png" onclick="changeImage('31');">
+        <img id="41" src="imgs/question.png" onclick="changeImage('41');">
+        <img id="81" src="imgs/question.png" onclick="changeImage('81');">
+        <img id="82" src="imgs/question.png" onclick="changeImage('82');">
+        <img id="61" src="imgs/question.png" onclick="changeImage('61');">
+        <img id="51" src="imgs/question.png" onclick="changeImage('51');">
+        <img id="21" src="imgs/question.png" onclick="changeImage('21');">
+        <img id="12" src="imgs/question.png" onclick="changeImage('12');">
+        <img id="42" src="imgs/question.png" onclick="changeImage('42');">
+        <img id="71" src="imgs/question.png" onclick="changeImage('71');">
+        <img id="32" src="imgs/question.png" onclick="changeImage('32');">
+        <img id="22" src="imgs/question.png" onclick="changeImage('22');">
+        <img id="72" src="imgs/question.png" onclick="changeImage('72');">
+        <img id="52" src="imgs/question.png" onclick="changeImage('52');">
+        <img id="62" src="imgs/question.png" onclick="changeImage('62');">
     </div>
 
     <br />
